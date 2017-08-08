@@ -2,7 +2,7 @@
 html {
   font-size: 18px;
   font-family: Helvetica, sans-serif;
-  line-height: 1.4;
+  line-height: 1.4px;
 }
 
 /* Header */
@@ -79,6 +79,7 @@ h1 {
 .supporting {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .service {
@@ -102,21 +103,19 @@ h1 {
 
 /* Supporting Information Section */
 .info {
+  width: 35%;
   padding-right: 5%;
 }
 
-.title {
-  display: flex;
-  flex-direction: column;
+.title div {
+  color: white;
+  background-color: cadetblue;
+  width: 10rem;
+  padding: .5rem 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
 }
 
-.title div {
-  width: 10rem;
-  color: #FFFFFF;
-  background-color: cadetblue;
-  padding: .5rem 1.25rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1rem;
-  margin-bottom: 1rem;
+.info p {
+  line-height: 1.4rem;
 }

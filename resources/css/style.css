@@ -1,0 +1,50 @@
+/* Global Styling */
+html {
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4px;
+}
+
+/* Header */
+header {
+  display: block;
+  background-image: url(/Users/MTracy/Desktop/Projects/ts3/resources/images/glasses-bg.png);
+  background-position: center;
+  background-size: cover;background-repeat: no-repeat;
+  height: 31rem;
+  padding-top: 1rem;
+}
+
+.container {
+  display: flex;
+  width: 960px;
+  height: auto;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  background-color: cadetblue;
+  color: #FFFFFF;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  border-style: none;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 2rem;
+}

@@ -105,6 +105,7 @@ h1 {
 .info {
   width: 35%;
   padding-right: 5%;
+  margin-bottom: 5rem;
 }
 
 .title div {
@@ -118,4 +119,17 @@ h1 {
 
 .info p {
   line-height: 1.4rem;
+}
+
+/* Footer Section */
+footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+  background-color: azure;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-left: 4rem;
 }

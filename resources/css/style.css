@@ -16,12 +16,9 @@ header {
 }
 
 .container {
-  display: flex;
   width: 960px;
   height: auto;
   margin: 0 auto;
-  justify-content: space-between;
-  align-items: center;
 }
 
 nav {
@@ -30,6 +27,7 @@ nav {
   color: #FFFFFF;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  justify-content: space-between;
 }
 
 nav span {
@@ -125,11 +123,13 @@ h1 {
 footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
-  display: flex;
   background-color: azure;
+  display: flex;
+  align-items: center;
 }
 
 footer img {
   height: 1.5rem;
   margin-left: 4rem;
+  margin-right: 1rem;
 }

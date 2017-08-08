@@ -16,7 +16,7 @@ header {
 }
 
 .container {
-  width: 960px;
+  max-width: 960px;
   height: auto;
   margin: 0 auto;
 }
@@ -132,4 +132,25 @@ footer img {
   height: 1.5rem;
   margin-left: 4rem;
   margin-right: 1rem;
+}
+
+/* Responsive Styling | 1024px */
+@media only screen and (max-width: 1024px) {
+  header {
+    height: 22rem;
+  }
+
+  nav.container {
+    width: 100%;
+    margin-top: -1rem;
+  }
+
+  .main-banner {
+    padding: 1rem 4rem;
+    margin-right: 2rem;
+  }
+
+  h1 {
+    font-size: 1.33rem;
+  }
 }
